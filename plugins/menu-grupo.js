@@ -14,21 +14,21 @@ let str = `
 
 𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗚𝗥𝗨𝗣𝗢𝗦
 
-° ඬ⃟💎 _${usedPrefix}add *<numero>*_
-° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-° ඬ⃟💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}infogroup_
-° ඬ⃟💎 _${usedPrefix}link_
-° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
-° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
-° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
-° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_
-° ඬ⃟💎 _${usedPrefix}setbye *<texto>*_
-° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
+° 💎 _${usedPrefix}add *<numero>*_
+° 💎 _${usedPrefix}kick *<@tag>*_
+° 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
+° 💎 _${usedPrefix}promote *<@tag>*_
+° 💎 _${usedPrefix}demote *<@tag>*_
+° 💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+° 💎 _${usedPrefix}demote *<@tag>*_
+° 💎 _${usedPrefix}infogroup_
+° 💎 _${usedPrefix}link_
+° 💎 _${usedPrefix}setname *<texto>*_
+° 💎 _${usedPrefix}setdesc *<texto>*_
+° 💎 _${usedPrefix}invocar *<texto>*_
+° 💎 _${usedPrefix}setwelcome *<texto>*_
+° 💎 _${usedPrefix}setbye *<texto>*_
+° 💎 _${usedPrefix}hidetag *<texto>*_
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
 ['🗒️𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧𝗔🗒️', '.menu'],
