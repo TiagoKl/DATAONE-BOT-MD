@@ -614,10 +614,11 @@ export async function handler(chatUpdate) {
         if (opts['autoread'])
             await this.readMessages([m.key])
         
-        if (!m.fromMem && m.text.match(/(mystic|the mystic - bot|mystic - bot|themystic-bot)/gi)) {
+        if (!m.fromMem && m.text.match(/(Tiago)/gi)) {
         let emot = pickRandom(["🎃", "❤", "😘", "😍", "💕", "😎", "🙌", "⭐", "👻", "🔥"])
         this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
         function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
+        this.sendPresenceUpdate('composing', m.chat)
     }
 }
 
