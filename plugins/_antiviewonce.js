@@ -14,9 +14,9 @@ let chat = db.data.chats[m.chat]
             buffer = Buffer.concat([buffer, chunk])
         }
         if (/video/.test(type)) {
-            return this.sendFile(m.chat, buffer, 'error.mp4', `☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓\n📢MENSAJE:${msg[type].caption}`, m)
+            return this.sendFile(m.chat, buffer, 'error.mp4', `☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓\n📢MENSAJE: ${msg[type].caption}`, m)
 } else if (/image/.test(type)) {
-return this.sendFile(m.chat, buffer, 'error.jpg', `☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓\n\n📢MENSAJE:${msg[type].caption}`, m)
+return this.sendFile(m.chat, buffer, 'error.jpg', `☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓\n\n📢MENSAJE: ${msg[type].caption}`, m)
         }
     }
 }
