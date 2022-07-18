@@ -26,6 +26,7 @@ let str = `
 ┣ ඬ⃟👑 _${usedPrefix}enable *gconly*_
 ┣ ඬ⃟👑 _${usedPrefix}disable *gconly*_
 ┣ ඬ⃟👑 _${usedPrefix}banchat2_
+┣ ඬ⃟👑 _${usedPrefix}add *<agrega nuevos comandos>*
 ┣ ඬ⃟👑 _${usedPrefix}unbanchat2_
 ┣ ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
 ┣ ඬ⃟👑 _${usedPrefix}unbanuser *<@tag>*_
