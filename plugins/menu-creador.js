@@ -33,15 +33,12 @@ let str = `
 ┣ ඬ⃟👑 _${usedPrefix}bc *<texto>*_
 ┣ ඬ⃟👑 _${usedPrefix}bcchats *<texto>*_
 ┣ ඬ⃟👑 _${usedPrefix}bcgc *<texto>*_
-┣ ඬ⃟👑 _${usedPrefix}cleartpm_
+┣ ඬ⃟👑 _${usedPrefix}autoadmin
+┣ ඬ⃟👑 _${usedPrefix}create *<creas un grupo>*
 ┣ ඬ⃟👑 _${usedPrefix}restart_
 ┣ ඬ⃟👑 _${usedPrefix}update_
 ┣ ඬ⃟👑 _${usedPrefix}addprem *<@tag>*_
 ┣ ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
-┣ ඬ⃟👑 _${usedPrefix}listprem_
-┣ ඬ⃟👑 _${usedPrefix}añadirdiamantes *<@tag> <cantidad>*_
-┣ ඬ⃟👑 _${usedPrefix}añadirxp *<@tag> <cantidad>*_
-┣ ඬ⃟👑 _${usedPrefix}resetuser_
 ┗━━━━━━━━━━━━━┛
 ┗━━━━━━━━━━━━━┛
 `.trim()
