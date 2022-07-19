@@ -75,7 +75,7 @@ const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
 logger: P({ level: 'silent'}),
-browser: ['☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓','Tiago','1.0.0']
+browser: ['☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓','WhatsApp','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
