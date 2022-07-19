@@ -141,7 +141,7 @@ conn.ev.off('creds.update', conn.credsUpdate)
 }
   
 conn.welcome = '□〓𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓〓□\n\n▫□ USUARIO\n➭ @user\n      ➭ Bienvenido(a) Espero disfrutes de tu estadía en el grupo con todos los admins y usuarios, recuerda respetar las reglas para evitar ser sancionado.\n      ➭Usa los comandos que tengo disponible, para descubrirlo pon *"/menu"*\n\n▫□ GRUPO\n➭ @subject\n\n▫□ DESCRIPCIÓN\n➭ @desc\n\n□〓▰▰▰▰▰▰▰▰▰▰▰〓□'
-conn.bye = '☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓\n\n@user \nADIOS USUARIO, ESPERO Y VAYA A CHUPAR EL PENE DE TIAGO MI CREADOR.'
+conn.bye = '□〓𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓〓□\n\n▫□ USUARIO\n➭ @user \n      ➭ Adiós espero volver a verte algun día por acá, fue lindo mientras duró tu presencia en el grupo.\n\n□〓DESPEDIDA GLOBAL〓□'
 conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂!!*'
 conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*'
 conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
