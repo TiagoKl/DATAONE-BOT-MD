@@ -45,15 +45,16 @@ rows: [
  
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓
+text: `□〓𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓〓□
 
-║➤ *☠️Hola, ${name}!!*
+▫□ USUARIO
+➭ ${name}
+▫□ FECHA ACTUAL
+➭ ${week}, ${date}
 
-📅FECHA ACTUAL📅
-${week}, ${date}*
+•DUDAS Y SUGERENCIA RESPECTO AL BOT HABLAR CON EL CREADOR OFICIAL. 
 
-SELECCIONE EL MENU QUE QUIERAS USAR
-🔥≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡🔥`, footer: `${wm}`, pp,
+□〓▰▰▰▰▰▰▰▰▰▰▰〓□`, footer: `${wm}`, pp,
 title: null,
 buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦  𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓", 
 sections }
