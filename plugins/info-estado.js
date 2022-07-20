@@ -8,13 +8,14 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado =`
-☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓 ☠️
+□〓𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓〓□
 
-[📥EN LÍNEA📥]
+▫□ USUARIO
+➭ ${name}
+▫□ TIENPO ACTIVO
+➭ ${uptime}
 
-💀 Hola ${name}
-
-📢 Tiempo activo ${uptime}
+□〓▰▰▰▰▰▰▰▰▰▰▰〓□
 `.trim()
 
 conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/TiagoKl/DATAONE-BOT-MD', '☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓', null, null, [
