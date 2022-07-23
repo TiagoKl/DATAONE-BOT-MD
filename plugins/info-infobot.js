@@ -18,30 +18,30 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 let info = `
-□〓𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓〓□
+□🌟〓𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓〓🌟□
 
-▫□ CREADOR
+▫👤□ CREADOR
 ➭ Tiago
-▫□ PREFIJO
+▫🚔□ PREFIJO
 ➭ ${usedPrefix}
-▫□ CHAT PRIVADOS
+▫🌻□ CHAT PRIVADOS
 ➭ ${chats.length - groups.length}
-▫□ CHAT DE GRUPOS
+▫🌍□ CHAT DE GRUPOS
 ➭ ${groups.length}
-▫□ CHAT TOTALES
+▫📢□ CHAT TOTALES
 ➭ ${chats.length}
-▫□ ACTIVIDAD
+▫🔥□ ACTIVIDAD
 ➭ ${uptime}
-▫□ USUARIOS
+▫🚨□ USUARIOS
 ➭ ${totalreg}
-▫□ VELOCIDAD
+▫🛸□ VELOCIDAD
 ➭ ${speed}
-▫□ AUTOREAD
+▫🍁□ AUTOREAD
 ➭ ${autoread ? '*ACTIVADO*' : '*DESACTIVADO*'}
-▫□ RESTRICT
+▫🎊□ RESTRICT
 ➭ ${restrict ? '*ACTIVADO*' : '*DESACTIVADO*'} 
 
-□〓▰▰▰▰▰▰▰▰▰▰▰〓□
+□💥〓▰▰▰▰▰▰▰▰▰▰▰〓💥□
 `.trim() 
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
