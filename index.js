@@ -1,4 +1,4 @@
-console.log('☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓ㅤIniciando...')
+console.log('✅ㅤIniciando...')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,11 +13,11 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('DATAONE - BOT\nWhatsApp Bot MD', {
+say('Mystic - Bot\nWhatsApp Bot MD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`TIAGO-CREADOR`, {
+say(`Bot creado por Bruno Sobrino`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
