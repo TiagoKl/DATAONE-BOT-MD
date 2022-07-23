@@ -63,7 +63,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'TIAGO-CREADOR'
-global.author = '☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓'
+global.author = '✹ 🚭ࠥ : 旗 𝙙𝙧𝙪𝙜𝙜𝙠 𝗦̸̷𝟯̸̷̲𝗫̸̷لرسػ'
 
 global.wm = '☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓'
 global.igfg = '☠️ 𝐃𝐀𝐓𝐀𝐎𝐍𝐄-𝐁𝐎𝐓'
